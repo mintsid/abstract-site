@@ -112,7 +112,7 @@ class Comment {
         this.content = comment.content;
         this.author = comment.author;
 
-        if (comment.author === '' || comment.author === null) {
+        if (comment.content === '' || comment.content === null) {
             //= > WIL 쓸거
             throw new Error('ㅠㅠㅠ ');
         } else if (comment.author === '' || comment.author === null) {
